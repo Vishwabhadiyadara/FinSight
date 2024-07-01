@@ -16,7 +16,7 @@ Adaptive Stock Prediction and Monitoring Pipeline
 12. [Anomalies Detection and Alerts](#anomalies-detection-and-alerts)
 13. [Dividing Feature and Labels](#dividing-feature-and-labels)
 14. [Hyper Parameter Tuning](#hyper-parameter-tuning)
-15. [Modeling & Training Phase](#modeling-training-phase)
+15. [Modeling & Training Phase](#modeling--training-phase)
 16. [Load and Predict](#load-and-predict).
 17. [Retraining DAG](#retraining-dag)
 18. [Deployment](#deployment)
