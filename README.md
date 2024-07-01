@@ -16,8 +16,8 @@ Adaptive Stock Prediction and Monitoring Pipeline
 12. [Anomalies Detection and Alerts](#anomalies-detection-and-alerts)
 13. [Dividing Feature and Labels](#dividing-feature-and-labels)
 14. [Hyper Parameter Tuning](#hyper-parameter-tuning)
-15. [Modelling & Training Phase](#training-phase)
-16. [Load and Predict](#training-phase)
+15. [Modelling & Training Phase](#modelling-training-phase)
+16. [Load and Predict](#load-and-predict).
 17. [Retraining DAG](#retraining-dag)
 18. [Deployment](#deployment)
 19. [Conclusion](#conclusion)
@@ -25,6 +25,10 @@ Adaptive Stock Prediction and Monitoring Pipeline
 
 ### Introduction
 This project demonstrates a comprehensive pipeline for processing stock data and making a prediction. It includes data preprocessing, hyper-parameter tuning, modelling and training with MlFlow dashboards, evaluating and testing, workflow orchestration with Apache Airflow, data versioning with DVC, schema generation, and anomaly detection. The project is documented to ensure replication on other machines.
+
+Here is an Project Architecture comprising the gist of the workflows.
+### Architecture
+  ![Architecture](./images/FinSight%20Architecture.png)
 
 ### Project Structure
 This section outlines the directory and file structure of the project, providing a clear map of where different components and resources are located. It describes the roles of different directories and files, such as:
@@ -90,13 +94,6 @@ We also wanted to decouple the model with Data and Model pipeline, so that today
 
 21 directories, 19 files
 ```
-
-Here is an Project Architecture comprising the gist of the workflows.
-### Architecture
-  ![Architecture](./images/FinSight%20Architecture.png)
-
-
-
 
 ### Prerequisites
 - Python 3.9 (Packages like tensorflow, Flask sklearn, keras, mlflow etc.)
